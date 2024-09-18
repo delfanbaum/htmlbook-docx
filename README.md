@@ -13,6 +13,31 @@ for it, but beyond that, compared to many "book-like" HTML outputs, it's
 relatively clean in terms of its HTML markup. This makes processing into docx
 both simpler and more reliable.
 
+## Installation and Usage
+
+This tool can be installed via pip:
+
+```
+pip install htmlbook-docx
+```
+
+Then, to convert a given HTML file, simply run:
+
+```
+htmlbook2docx FILE
+```
+
+## Contributing
+
+I used this as a pilot project for trying [`uv`](https://github.com/astral-sh/uv)
+over `poetry`, so:
+
+1. Install [`uv`](https://docs.astral.sh/uv) (links to docs)
+1. Clone the repo
+1. Run `uv sync`, which will create the virtual environment and get the packages
+   going.
+1. Hack away.
+
 ## Quirks
 
 Some quirks to keep in mind:
